@@ -1,0 +1,12 @@
+/Users/bentonwestergaard/resume_projects/Giraffe/Giraffe/bin/Debug/netcoreapp3.1/Giraffe.deps.json
+/Users/bentonwestergaard/resume_projects/Giraffe/Giraffe/bin/Debug/netcoreapp3.1/Giraffe.runtimeconfig.json
+/Users/bentonwestergaard/resume_projects/Giraffe/Giraffe/bin/Debug/netcoreapp3.1/Giraffe.runtimeconfig.dev.json
+/Users/bentonwestergaard/resume_projects/Giraffe/Giraffe/bin/Debug/netcoreapp3.1/Giraffe.dll
+/Users/bentonwestergaard/resume_projects/Giraffe/Giraffe/bin/Debug/netcoreapp3.1/Giraffe.pdb
+/Users/bentonwestergaard/resume_projects/Giraffe/Giraffe/obj/Debug/netcoreapp3.1/Giraffe.csproj.AssemblyReference.cache
+/Users/bentonwestergaard/resume_projects/Giraffe/Giraffe/obj/Debug/netcoreapp3.1/Giraffe.AssemblyInfoInputs.cache
+/Users/bentonwestergaard/resume_projects/Giraffe/Giraffe/obj/Debug/netcoreapp3.1/Giraffe.AssemblyInfo.cs
+/Users/bentonwestergaard/resume_projects/Giraffe/Giraffe/obj/Debug/netcoreapp3.1/Giraffe.csproj.CoreCompileInputs.cache
+/Users/bentonwestergaard/resume_projects/Giraffe/Giraffe/obj/Debug/netcoreapp3.1/Giraffe.dll
+/Users/bentonwestergaard/resume_projects/Giraffe/Giraffe/obj/Debug/netcoreapp3.1/Giraffe.pdb
+/Users/bentonwestergaard/resume_projects/Giraffe/Giraffe/obj/Debug/netcoreapp3.1/Giraffe.genruntimeconfig.cache
