@@ -6,51 +6,77 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            string characterName = "Benton";
-            int characterAge = 37;
+            //Console.Write("Enter name: ");
+            //string name = Console.ReadLine();
+            //Console.Write("Enter age: ");
+            //string age = Console.ReadLine();
+            //Console.Write("Enter residence: ");
+            //string residence = Console.ReadLine();
+            //Console.WriteLine("Hello " + name + " you are " + age + " and you are from " + residence);
 
-            Console.WriteLine("My name is " + characterName);
-            Console.WriteLine("I am " + characterAge + " years old");
-            Console.WriteLine("It's almost my birthday");
-            Console.WriteLine("and on August 3");
+            //int num = "45";
+            //Console.WriteLine("43" + "56");
 
-            characterAge = 38;
+            //Console.ReadLine();
 
-            Console.WriteLine("I will be " + characterAge);
-            Console.WriteLine("but my name will still be " + characterName);
+            //int num = Convert.ToInt32("45");
+            //Console.WriteLine(num + 6);
 
-            string phrase = "Bicycle Academy" +" is sweet";
-            char grade = 'C';
-            int age = -50;
-            double gpa = 12.20;
-            bool isMale = true; 
+            //Console.Write("Enter a number: ");
+            //double num1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("I earned a " + grade);
-            Console.WriteLine(phrase.Length);
+            //Console.Write("Enter a number: ");
+            //double num2 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine(phrase.ToUpper());
-            Console.WriteLine(phrase.Contains("sweet"));
-            Console.WriteLine(phrase.Contains("skiing"));
-            Console.WriteLine(phrase[0]);
-            Console.WriteLine(phrase[2]);
-            Console.WriteLine(phrase[8]);
-            Console.WriteLine(phrase.IndexOf("Academy"));
-            Console.WriteLine(phrase.IndexOf(" "));
-            Console.WriteLine(phrase.IndexOf("z"));
-            Console.WriteLine(phrase.Substring(8));
-            Console.WriteLine(phrase.Substring(8, 3));
+            //Console.WriteLine(num1 + num2);
+
+            //Console.ReadLine();
+
+            //string color, pluralNoun, celebrity;
+
+            //Console.Write("Enter a color: ");
+            //color = Console.ReadLine();
+
+            //Console.Write("Enter a plural noun: ");
+            //pluralNoun = Console.ReadLine();
+
+            //Console.Write("Enter a celebrity: ");
+            //celebrity = Console.ReadLine();
+
+            //Console.WriteLine("Roses are " + color);
+            //Console.WriteLine(pluralNoun + " are blue");
+            //Console.WriteLine("I love " + celebrity);
+
+            //int[] luckyNumbers = { 3,5,56,78,9,8,0 };
+            //string[] friends = new string[5];
+            //friends[0] = "Jane";
+            //friends[1] = "Joey";
+
+            //luckyNumbers[1] = 900;
+
+            //Console.WriteLine( luckyNumbers[1] );
+
+            //Console.ReadLine();
+
+            //SayHi("Ben", 34);
+            //SayHi("John", 13);
+            //SayHi("Jenny", 1000);
+            //Console.ReadLine();
 
 
-
-
-
-
-
-
-
-
-
+            int cubedNumber = cube(5);
+            Console.WriteLine(cubedNumber);
             Console.ReadLine();
         }
+
+        static double cube(int num)
+        {
+            int result = num * num * num;
+            return result;
+        }
+        //static void SayHi(string name, int age)
+        //{
+        //    Console.WriteLine("Hello " + name + " you are " + age + " years old ");
+        //}
     }
 }
