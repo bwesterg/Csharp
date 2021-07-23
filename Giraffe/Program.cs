@@ -64,19 +64,95 @@ namespace Giraffe
             //Console.ReadLine();
 
 
-            int cubedNumber = cube(5);
-            Console.WriteLine(cubedNumber);
+            //int cubedNumber = cube(5);
+            //Console.WriteLine(cubedNumber);
+            //Console.ReadLine();
+
+            //    bool isMale = false;
+            //    bool isTall = false;
+
+            //    if (isMale && isTall)
+            //    {
+            //        Console.WriteLine("You are a tall male");
+            //    } else if (isMale && !isTall) {
+            //        Console.WriteLine("You are a short male");
+            //    } else if(!isMale && isTall){
+            //        Console.WriteLine("You are not male but you are tall");
+            //    } else
+            //    {
+            //        Console.WriteLine("You are neither male nor tall");
+            //    }
+            //    Console.ReadLine();
+            //}
+
+            //static double cube(int num)
+            //{
+            //    int result = num * num * num;
+            //    return result;
+            //}
+            //static void SayHi(string name, int age)
+            //{
+            //    Console.WriteLine("Hello " + name + " you are " + age + " years old ");
+            //}
+
+            //Console.WriteLine(GetMax(10, 20, 40));
+
+            //Console.ReadLine();
+            //}
+            //static int GetMax(int num1, int num2, int num3)
+            //{
+            //    int result;
+
+            //if (num1 > num2)
+            //{
+            //    result = num1;
+            //}
+            //else result = num2;
+            ////
+            //if (num1 >= num2 && num1 >= num3)
+            //{
+            //    result = num1;
+            //}
+            //else if (num2 >= num1 && num2 >= num3)
+            //{
+            //    result = num2;
+            //}
+            //else
+            //{
+            //    result = num3;
+            //}
+            //return result;
+            Console.Write("Enter a number: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter Operator: ");
+            string op = Console.ReadLine();
+
+            Console.Write("Enter a number: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            if (op == "+")
+            {
+                Console.WriteLine(num1 + num2);
+            } else if (op == "-")
+            {
+                Console.WriteLine(num1 - num2);
+            }
+            else if (op == "*")
+            {
+                Console.WriteLine(num1 * num2);
+            }
+            else if (op == "/")
+            {
+                Console.WriteLine(num1 / num2);
+            }
+            else
+            {
+                Console.WriteLine("invalid operator");
+            }
+
+
             Console.ReadLine();
         }
-
-        static double cube(int num)
-        {
-            int result = num * num * num;
-            return result;
-        }
-        //static void SayHi(string name, int age)
-        //{
-        //    Console.WriteLine("Hello " + name + " you are " + age + " years old ");
-        //}
     }
 }
